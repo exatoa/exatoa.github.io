@@ -63,23 +63,24 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["contents"]
-exclude:
-  - bin
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - docker-compose.yml
-  - Dockerfile
-  - FAQ.md
-  - Gemfile
-  - Gemfile.lock
-  - INSTALL.md
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - purgecss.config.js
-  - README.md
-  - vendor
+#include: ["contents"]
+source: contents
+#exclude:
+#  - bin
+#  - CONTRIBUTING.md
+#  - CUSTOMIZE.md
+#  - docker-compose.yml
+#  - Dockerfile
+#  - FAQ.md
+#  - Gemfile
+#  - Gemfile.lock
+#  - INSTALL.md
+#  - LICENSE
+#  - package.json
+#  - package-lock.json
+#  - purgecss.config.js
+#  - README.md
+#  - vendor
 
 
 # Plug-ins
