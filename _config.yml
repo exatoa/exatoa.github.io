@@ -37,17 +37,24 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
-
-navbar_fixed: true
-footer_fixed: true
-
-# Dimensions
-max_width: 800px
+#
+#navbar_fixed: true
+#footer_fixed: true
+#
+## Dimensions
+#max_width: 800px
 
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
+source              : .
+destination         : ./_site
+collections_dir     : .
+plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : contents
 
 # Markdown and syntax highlight
 markdown: kramdown
@@ -61,26 +68,6 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
-
-# Includes & excludes
-#include: ["contents"]
-source: contents
-#exclude:
-#  - bin
-#  - CONTRIBUTING.md
-#  - CUSTOMIZE.md
-#  - docker-compose.yml
-#  - Dockerfile
-#  - FAQ.md
-#  - Gemfile
-#  - Gemfile.lock
-#  - INSTALL.md
-#  - LICENSE
-#  - package.json
-#  - package-lock.json
-#  - purgecss.config.js
-#  - README.md
-#  - vendor
 
 
 # Plug-ins
