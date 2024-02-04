@@ -2,11 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Jaekwon Lee
-first_name: Jaekwon
-middle_name:
-last_name: Lee
-email: jaekwon.lee@uottawa.ca
+locale                   : "en-US"
+title                    : "Jaekwon Lee"
+#subtitle                 : "Version 1.0"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -15,50 +13,95 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-#icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+last_updated: true # set to true if you want to display last updated in the footer
 
-url: https://exatoa.github.io # the base hostname & protocol for your site
-baseurl: /profile # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-
+date_format: "%Y-%m-%d"
+#baseurl: /profile # the subpath of your site, e.g. /blog/. Leave blank for root
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
-# repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_trophies:
-  enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+theme                   : minimal-mistakes-jekyll
+minimal_mistakes_skin   : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#repository              : ""
+#logo                : "/assets/images/88x88.png"
+#masthead_title      : "My Custom Title"
 
 
 # -----------------------------------------------------------------------------
-# Layout
+# Layout and common contents settings
 # -----------------------------------------------------------------------------
-#
-#navbar_fixed: true
-#footer_fixed: true
-#
-## Dimensions
-#max_width: 800px
+search: true
+
+# remove feed icon
+atom_feed:
+  hide: true
+
+# default values for each type or layouts
+defaults:
+  # home pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+#      layout: home     # this default settings can be applied to each layout
+#      layout: single
+      show_date: true
+      author_profile: true
+  # posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      comments: true
+      author_profile: true
+      paginate: 10 # amount of posts to show
+      paginate_path: /page:num/
+
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/exatoa"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=EDpccDkAAAAJ&hl=en"
+
+
+# -----------------------------------------------------------------------------
+# Author settings
+# -----------------------------------------------------------------------------
+author: Jaekwon Lee
 
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
-source              : .
+source              : ./contents/   # .
 destination         : ./_site
-collections_dir     : .
-plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
-layouts_dir         : _layouts
-data_dir            : _data
-includes_dir        : contents
+#collections_dir     : .
+#plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
+#layouts_dir         : _layouts
+#data_dir            : _data
+#includes_dir        : contents
+#include:
+#  - contents
+#  - files
+#exclude:
+#  - Vagrantfile
+#  - Gemfile
+#  - Gemfile.lock
+#  - service.sh
+#  - README.md
 
 # Markdown and syntax highlight
+lsi: false
+incremental: false
 markdown: kramdown
 highlighter: rouge
+excerpt_separator: "\n\n"
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -72,23 +115,23 @@ kramdown:
 
 # Plug-ins
 plugins:
-  - jekyll-relative-links
-  - jekyll-archives
-  - jekyll-email-protect
+#  - jekyll-relative-links
+#  - jekyll-archives
+#  - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
+#  - jekyll-get-json
+#  - jekyll-imagemagick
+#  - jekyll-jupyter-notebook
+#  - jekyll-link-attributes
+#  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
+#  - jekyll-toc
+#  - jekyll-twitter-plugin
+#  - jemoji
 
 
-relative_links:
-  enabled: true
-  collections: true
+#relative_links:
+#  enabled: true
+#  collections: true

@@ -1,8 +1,17 @@
-
-
-
-
-
+######################
+# Environment
+######################
 .idea/
 .DS_Store
 .vagrant
+
+######################
+# Jekyll
+######################
+.jekyll-cache
+
+# Output of the jekyll
+_site/
+Gemfile.lock
+
+
