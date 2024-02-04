@@ -130,6 +130,7 @@ plugins:
 #  - jekyll-toc
 #  - jekyll-twitter-plugin
 #  - jemoji
+  - jekyll-include-cache
 
 
 #relative_links:

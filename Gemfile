@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 228", group: :jekyll_plugins
-
+gem "jekyll-include-cache", group: :jekyll_plugins    # Liquid tag that caches Liquid includes."
 
 group :jekyll_plugins do
   # gem "jekyll-archives"
@@ -19,5 +19,5 @@ group :jekyll_plugins do
   gem "jekyll-paginate"	        # Pagination Generator for Jekyll.
   gem "jekyll-sitemap"	        # Jekyll plugin to silently generate a sitemaps.org compliant sitemap for your Jekyll site.
   gem "jekyll-gist"	            # Liquid tag for displaying GitHub Gists in Jekyll sites.
-  gem "jekyll-include-cache"    # Liquid tag that caches Liquid includes.
+  # gem "jekyll-include-cache"    # Liquid tag that caches Liquid includes.
 end
