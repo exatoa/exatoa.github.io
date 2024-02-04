@@ -10,16 +10,19 @@ source "https://rubygems.org"
 gem "github-pages", "~> 228", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins    # Liquid tag that caches Liquid includes."
 
+
+###
+# For Local test
+###
+# gem "minimal-mistakes-jekyll" # minimal-mistakes theme
+#
 # group :jekyll_plugins do
-#   # gem "jekyll-archives"
-#   # gem "jekyll-seo-tag"
-#   # gem 'hawkins'
-#   gem "minimal-mistakes-jekyll" # minimal-mistakes theme
+#   gem "jekyll-archives"
+#   gem "jekyll-seo-tag"
+#   gem 'hawkins'
 #   gem "jekyll-feed"	            # A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts.
 #   gem "jekyll-paginate"	        # Pagination Generator for Jekyll.
 #   gem "jekyll-sitemap"	        # Jekyll plugin to silently generate a sitemaps.org compliant sitemap for your Jekyll site.
 #   gem "jekyll-gist"	            # Liquid tag for displaying GitHub Gists in Jekyll sites.
-#   # gem "jekyll-include-cache"    # Liquid tag that caches Liquid includes.
 # end
 
-###

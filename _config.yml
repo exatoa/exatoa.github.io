@@ -84,8 +84,8 @@ author: Jaekwon Lee
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
-source              : ./contents/   # .
-destination         : ./_site
+#source              : ./contents/   # .
+#destination         : ./_site
 #collections_dir     : .
 #plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
 #layouts_dir         : _layouts
@@ -94,12 +94,12 @@ destination         : ./_site
 #include:
 #  - contents
 #  - files
-#exclude:
-#  - Vagrantfile
-#  - Gemfile
-#  - Gemfile.lock
-#  - service.sh
-#  - README.md
+exclude:
+  - Vagrantfile
+  - Gemfile
+  - Gemfile.lock
+  - service.sh
+  - README.md
 
 # Markdown and syntax highlight
 lsi: false
