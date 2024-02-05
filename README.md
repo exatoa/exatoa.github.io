@@ -129,3 +129,5 @@ bundle exec jekyll serve --host=0.0.0.0
 * Github Pages - jekyll: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 * Local Test - Guideline: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
 * Local Test - Install jekyll: https://jekyllrb.com/docs/installation/ubuntu/
+* Minimum theme - Manual: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+* Academic Page theme : https://github.com/academicpages/academicpages.github.io
