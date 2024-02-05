@@ -1,21 +1,21 @@
 Jaekwon Lee:
-  name: "Jaekwon Lee"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am an **** person." # Note: Markdown is allowed
-  location: "Somewhere"
-  email            : jaekwon.lee@uottawa.ca
-  url              : https://exatoa.github.io # the base hostname & protocol for your site
+  name      : "Jaekwon Lee"
+  avatar    : "/assets/imgs/photo.jpg"
+  bio       : "" # Note: Markdown is allowed
+  location  : "University of Ottawa"
+  email     : jaekwon.lee@uottawa.ca
+  url       : https://exatoa.github.io # the base hostname & protocol for your site
   links:
-#    - label: "Made Mistakes"
-#      icon: "fas fa-fw fa-link"
-#      url: "https://mademistakes.com"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/mmistakes"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/exatoa"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
-      url: "https://scholar.google.com/citations?user=EDpccDkAAAAJ&hl=en"
+    - label : "GitHub"
+      icon  : "fab fa-fw fa-github"
+      url   : "https://github.com/exatoa"
+    - label : "Google Scholar"
+      icon  : "ai ai-google-scholar fa-fw"     # applied "fa-fw" style
+      url   : "https://scholar.google.com/citations?user=EDpccDkAAAAJ&hl=en"
+#    - label : "Made Mistakes"
+#      icon  : "fas fa-fw fa-link"
+#      url   : "https://mademistakes.com"
+#    - label : "Twitter"
+#      icon  : "fab fa-fw fa-twitter-square"
+#      url   : "https://twitter.com/mmistakes"
 # reference for icons: https://jpswalsh.github.io/academicons/

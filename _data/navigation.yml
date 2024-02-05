@@ -1,15 +1,23 @@
 main:
-#  - title: "Quick-Start Guide"
-#    url: /docs/quick-start-guide/
+# For one-page website (link H1s)
+#  - title: "Publications"
+#    url: /#publications
+#  - title: "Education"
+#    url: /#education
+
+# For multi-page website
   - title: "Posts"
     url: /posts/
+#  - title: "Publications"
+#    url: /publications/
+
 #  - title: "Categories"
 #    url: /categories/
 #  - title: "Tags"
 #    url: /tags/
-  - title: "Publications"
-    url: /publications/
 #  - title: "Collections"
 #    url: /collection-archive/
+
+# For multi-page website
 #  - title: "External Link"
 #    url: https://google.com

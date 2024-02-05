@@ -1,22 +1,18 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+locale               : "en-US"
+lang                 : en # the language of your site (for example: en, fr, cn, ru, etc.)
+last_updated         : true # set to true if you want to display last updated in the footer
+date_format          : "%Y-%m-%d"
+#baseurl              : /profile # the subpath of your site, e.g. /blog/. Leave blank for root
 
-locale                   : "en-US"
-title                    : "Jaekwon Lee"
-#subtitle                 : "Version 1.0"
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+title                : "Jaekwon Lee"
+#subtitle             : "sub title of the website"
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-last_updated: true # set to true if you want to display last updated in the footer
+#logo                : "/assets/imgs/88x88.png"
+#masthead_title      : "My Custom Title"
 
-date_format: "%Y-%m-%d"
-#baseurl: /profile # the subpath of your site, e.g. /blog/. Leave blank for root
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -29,14 +25,11 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 minimal_mistakes_skin   : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 #repository              : ""
-#logo                : "/assets/images/88x88.png"
-#masthead_title      : "My Custom Title"
-
 
 # -----------------------------------------------------------------------------
 # Layout and common contents settings
 # -----------------------------------------------------------------------------
-search: true
+search: false
 
 # remove feed icon
 atom_feed:
@@ -60,10 +53,13 @@ defaults:
     values:
       show_date: true
       comments: true
-      author_profile: true
+      author_profile: false       # This is not working....
       paginate: 10 # amount of posts to show
       paginate_path: /page:num/
 
+#header:
+#  image: /assets/images/unsplash-image-1.jpg
+#  image_description: "A description of the image"
 
 footer:
   links:
@@ -71,8 +67,18 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/exatoa"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
+      icon: "ai ai-google-scholar fa-fw"     # applied "fa-fw" style
       url: "https://scholar.google.com/citations?user=EDpccDkAAAAJ&hl=en"
+
+
+# Custom data for this site
+credits:
+  - name: Jekyll
+    url: https://jekyllrb.com
+  - name: Minimal Mistakes
+    url: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
+  - name: Academicons
+    url: https://jpswalsh.github.io/academicons/
 
 
 # -----------------------------------------------------------------------------
@@ -84,7 +90,7 @@ author: Jaekwon Lee
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
-#source              : ./contents/   # .
+#source              : ./contents/   # if it is changed, Github Pages would not work correctly...
 #destination         : ./_site
 #collections_dir     : .
 #plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
