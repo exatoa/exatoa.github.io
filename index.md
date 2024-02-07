@@ -19,7 +19,7 @@ title:
 [//]: # (## RESEARCH INTERESTS)
 
 I am a postdoctoral fellow at the School of Electrical Engineering and Computer Science -- [University of Ottawa](https://www.uottawa.ca/en) (uOttawa). 
-Before coming to uOttawa, I was a research associate at the University of Luxembourg (UL). I completed my Ph.D. at the University of Luxembourg under the supervision of [Prof. Lionel Briand](https://www.lbriand.info/) and in collaboration with [Prof. Shiva Nejati](https://shnejati.bitbucket.io/), and [Dr. Seung Yeob Shin](https://scholar.google.com/citations?user=3kMy3iUAAAAJ&hl=en).
+Before coming to uOttawa, I was a research associate at the University of Luxembourg (UL). I received my PhD at the University of Luxembourg under the supervision of [Prof. Lionel Briand](https://www.lbriand.info/) and in collaboration with [Prof. Shiva Nejati](https://shnejati.bitbucket.io/), and [Dr. Seung Yeob Shin](https://sites.google.com/view/seungyeob/home).
 My research interests are in the area of software testing related to mutation testing, automated verification, fault localization, and automatic repair using fuzzing, search-based approaches, and machine learning. I have been conducting my research closely with industry partners in automotive and aerospace sectors, such as [ESA](https://www.esa.int/), [Huld](https://huld.io/industries/space/), [GomSpace](https://gomspace.com/home.aspx), [LuxSpace](https://space-agency.public.lu/en/expertise/space-directory/LuxSpace.html), and [Blackberry](https://www.blackberry.com/).
 
 
@@ -42,13 +42,9 @@ My research interests are in the area of software testing related to mutation te
 
 
 ## WORK EXPERIENCE
-* Postdoctoral researcher, University of Ottawa, 2023 ~ Present
+* Postdoctoral researcher, University of Luxembourg (UL) and University of Ottawa, 2022 ~ Present
   * Project: FAQAS2 - Fault-based, Automated Quality Assurance Assessment and Augmentation for Space Software
-  * Supervisor: Fabrizio Pastore and L. Briand
-
-* Postdoctoral researcher, University of Luxembourg (UL), 2022 ~ 2023
-  * Project: FAQAS2 - Fault-based, Automated Quality Assurance Assessment and Augmentation for Space Software
-  * Supervisor: Fabrizio Pastore and L. Briand
+  * Supervisor: Fabrizio Pastore and Lionel Briand
 
 * Developer, HUG Infotech, Republic of Korea, 2011 - 2012
   * Project: Automated MFT System for patients in stroke rehabilitation
@@ -66,7 +62,7 @@ My research interests are in the area of software testing related to mutation te
 * PhD, Computer Science and Computer Engineering, University of Luxembourg (UL), 2022 
   * Thesis: WCET and Priority Assignment Analysis of Real-Time Systems using Search and Machine Learning
   * Supervisor: [Prof. Lionel C. Briand](https://www.lbriand.info/)
-  * Collaborators: [Dr. Seung Yeob Shin](https://scholar.google.com/citations?user=3kMy3iUAAAAJ&hl=en) (University of Luxembourg), [Prof. Shiva Nejati](https://shnejati.bitbucket.io/) 
+  * Collaborators: [Prof. Shiva Nejati](https://shnejati.bitbucket.io/) (University of Ottawa) and [Dr. Seung Yeob Shin](https://sites.google.com/view/seungyeob/home) (University of Luxembourg) 
   
 * M.Eng., Computer Engineering, Chungbuk National University (CBNU), 2015
   * Thesis: Optimal Assignment of Bug Reports using Genetic Algorithm
@@ -74,7 +70,6 @@ My research interests are in the area of software testing related to mutation te
   * Supervisor: [Prof. Woosung Jung](https://scholar.google.com.hk/citations?user=U7Tc7gEAAAAJ&hl=en)
   
 * B.Eng., Computer Engineering, Chungbuk National University (CBNU), 2013
-  * Supervisor: Prof. Younghoon Seo
 
 
 ## TEACHING EXPERIENCE
