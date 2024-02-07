@@ -18,7 +18,11 @@ title:
 [//]: # ()
 [//]: # (## RESEARCH INTERESTS)
 
-I am a postdoctoral fellows at the School of Electrical Engineering and Computer Science -- [University of Ottawa](https://www.uottawa.ca/en). My research interests are in the area of software testing related to automated verification, fault localization, and automatic repair using search-based approaches and machine learning. Recently, working on mutation testing using search-based approaches for space software systems by collaborating with industrial partners.
+I am a postdoctoral fellow at the School of Electrical Engineering and Computer Science -- [University of Ottawa](https://www.uottawa.ca/en) (uOttawa). 
+Before coming to uOttawa, I was a research associate at the University of Luxembourg (UL). I completed my Ph.D. at the University of Luxembourg under the supervision of [Prof. Lionel Briand](https://www.lbriand.info/) and in collaboration with [Prof. Shiva Nejati](https://shnejati.bitbucket.io/), and [Dr. Seung Yeob Shin](https://scholar.google.com/citations?user=3kMy3iUAAAAJ&hl=en).
+My research interests are in the area of software testing related to mutation testing, automated verification, fault localization, and automatic repair using fuzzing, search-based approaches, and machine learning. I have been conducting my research closely with industry partners in automotive and aerospace sectors, such as [ESA](https://www.esa.int/), [Huld](https://huld.io/industries/space/), [GomSpace](https://gomspace.com/home.aspx), [LuxSpace](https://space-agency.public.lu/en/expertise/space-directory/LuxSpace.html), and [Blackberry](https://www.blackberry.com/).
+
+
 
 ## PUBLICATIONS
 * J. Lee, E. Viganò, O. Cornejo, F. Pastore, and L. Briand, "Fuzzing for CPS Mutation Testing," in Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE2023), Sep, 2023. [[PDF]](https://ieeexplore.ieee.org/abstract/document/10298537?casa_token=7NXRCFlLG4EAAAAA:7fJDTYJ8Cu4HffpPdFwTx0TRTTrHl8KKqcNFB8rAackJmYSY_mZN4JpLoucFksAvCxBngw_tWBU)[[Github]](https://github.com/SNTSVV/MOTIF)
