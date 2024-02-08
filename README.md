@@ -1,14 +1,16 @@
 
 
 # Github Webpage
-
+Github webpage is for web service from the git repository directly. It suppurts Jekyll library, where building website from Markdown files.
+Once pushing a repository into Github repository named `<username>.github.io`, Github automatically resolve the dependencies and compile websites.
+This `README` provides a simple guideline for testing webpage with Jekyll in your local machine. 
 
 ## Local Test Environment
-* I made the test environment using vagrant
+* The test environment is made on Vagrant
 * Prerequisite: VirtualBox and vagrant  (https://developer.hashicorp.com/vagrant/docs/installation)
 
 ### Install vagrant box
-* Enclosed Vagrantfile has a default configurations (Ubuntu 22.04)
+* Enclosed Vagrantfile in this repository has a default configurations with Ubuntu 22.04
 ```shell
 vagrant up
 vagrant ssh
@@ -41,11 +43,11 @@ cd /vagrant     # This directory is the default shared directory
 
 ## Build your site for Github Pages
 ### make `Gemfile`
-* Open a file named `Gemfile` (e.g., `vi Gemfile`)
+* Create a file named `Gemfile` (e.g., `vi Gemfile`)
 * Paste the following code
-* This code includes jekyll library (gems) and plugins 
+* This code includes jekyll library and plugins  (gems) 
 * Reference: https://jekyllrb.com/docs/ruby-101/#gems
-* Note: in local, Ruby3.x does not include webrick, we need to include it in the Gemfile.
+* Note: in local, Ruby3.x does not include `webrick`, we need to include it in the Gemfile.
 ```shell
 source "https://rubygems.org"
 
@@ -55,7 +57,7 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins    # Liquid tag that caches Liquid includes."
 
-# For local test
+# For local test (It should not included when you push the repository to the github)
 gem "webrick", "~> 1.8"
 ```
   
@@ -63,13 +65,13 @@ gem "webrick", "~> 1.8"
 
 ## Install gems and execute jekyll site
 ```shell
-# update dependency of jekyll
+# update dependencies of jekyll for this repository
 bundle install
 
-# execute server
+# execute web server
 bundle exec jekyll serve
 
-# If you want to make access from outside, you should execute the server with "--host=0.0.0.0"
+# If you want to access the website from outside (Host machine), you should execute the server with "--host=0.0.0.0"
 bundle exec jekyll serve --host=0.0.0.0
 
 # default port also can be changed with "--port=<port num>"
@@ -83,21 +85,20 @@ bundle exec jekyll serve --host=0.0.0.0 --port=5000
 # install a default jekyll sites (This will generate a sample files)
 jekyll new --skip-bundle .
 
-# update 'Gemfile'
-# to have the same environment with github-pages
-# disable the following lines
-gem "jekyll"
-# activate the following line with GITHUB-PAGES-VERSION(see the versions:https://pages.github.com/versions/) 
-gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
-
 # Add bundle "webrick"
 #   - since github-pages still working with Ruby 2.7...they are including webrick
 #   - but ruby 3.x does not come with it. (Ruby 2.7 is not supported now...so..we need to add it)
 #   - we can install it in the command line
+#   - this command will update 'Gemfile' by adding the following: gem "webrick", "~> 1.8"
 bundle add webrick
-#   - or we can add a line in the Gemfile 
-gem "webrick", "~> 1.8"
 
+# update 'Gemfile'
+# to have the same environment with github-pages
+vi Gemfile
+# disable the following line
+#     gem "jekyll"
+# and activate the following line with GITHUB-PAGES-VERSION(see the versions:https://pages.github.com/versions/) 
+#     gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
 
 # update the bundle github-pages 
 bundle update github-pages
@@ -109,19 +110,11 @@ bundle exec jekyll serve --host=0.0.0.0
 
 
 
-## Configure web site
-* Reference
-  * https://jekyllrb.com/docs/configuration/
-###
+## Create your own web site
 * Make a file `_config.yml` or `_config.toml` at the root directory
-```shell
-
-```
-
-
-
-
-
+* Add configurations for your web site
+* Add contents (*.md files)
+* Modify default theme if it is necessary
 
 
 ## References
@@ -131,3 +124,4 @@ bundle exec jekyll serve --host=0.0.0.0
 * Local Test - Install jekyll: https://jekyllrb.com/docs/installation/ubuntu/
 * Minimum theme - Manual: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 * Academic Page theme : https://github.com/academicpages/academicpages.github.io
+* Jekyll configurations: https://jekyllrb.com/docs/configuration/
