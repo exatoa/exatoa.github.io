@@ -14,17 +14,14 @@ title:
 
 # Jaekwon Lee
 
-
-[//]: # ()
-[//]: # (## RESEARCH INTERESTS)
-
-I am a postdoctoral fellow at the School of Electrical Engineering and Computer Science -- [University of Ottawa](https://www.uottawa.ca/en) (uOttawa). 
-Before coming to uOttawa, I was a research associate at the University of Luxembourg (UL). I received my PhD at the University of Luxembourg under the supervision of [Prof. Lionel Briand](https://www.lbriand.info/) and in collaboration with [Prof. Shiva Nejati](https://shnejati.bitbucket.io/), and [Dr. Seung Yeob Shin](https://sites.google.com/view/seungyeob/home).
+I am an assistant professor in the Department of Computer Science and Engineering at Kangwon National University (KNU). Before coming to KNU,
+I was a postdoctoral fellow at the [University of Ottawa](https://www.uottawa.ca/en) (uOttawa) and the University of Luxembourg (UL). I received my PhD at the University of Luxembourg under the supervision of [Prof. Lionel Briand](https://www.lbriand.info/) and in collaboration with [Prof. Shiva Nejati](https://shnejati.bitbucket.io/), and [Dr. Seung Yeob Shin](https://sites.google.com/view/seungyeob/home).
 My research interests are in the area of software testing related to mutation testing, automated verification, fault localization, and automatic repair using fuzzing, search-based approaches, and machine learning. I have been conducting my research closely with industry partners in automotive and aerospace sectors, such as [ESA](https://www.esa.int/), [Huld](https://huld.io/industries/space/), [GomSpace](https://gomspace.com/home.aspx), [LuxSpace](https://space-agency.public.lu/en/expertise/space-directory/LuxSpace.html), and [Blackberry](https://www.blackberry.com/).
 
 
 
 ## PUBLICATIONS
+* J. Lee, E. Viganò, O. Cornejo, F. Pastore, and L. Briand, "MOTIF: A tool for Mutation Testing with Fuzzing," in Proceedings of the 17th IEEE International Conference on Software Testing, Verification and Validation (ICST2024), May, 2024. [[Preprint]](https://arxiv.org/pdf/2406.02398)[[Github]](https://github.com/SNTSVV/MOTIF)
 * J. Lee, E. Viganò, O. Cornejo, F. Pastore, and L. Briand, "Fuzzing for CPS Mutation Testing," in Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE2023), Sep, 2023. [[PDF]](https://ieeexplore.ieee.org/abstract/document/10298537?casa_token=7NXRCFlLG4EAAAAA:7fJDTYJ8Cu4HffpPdFwTx0TRTTrHl8KKqcNFB8rAackJmYSY_mZN4JpLoucFksAvCxBngw_tWBU)[[Github]](https://github.com/SNTSVV/MOTIF)
 * J. Lee, S. Shin, L. Briand, S. Nejati, "Probabilistic Safe WCET Estimation for Weakly Hard Real-Time Systems at Design Stages," ACM Transactions on Software Engineering and Methodology (TOSEM), vol. 33 (2), no. 32, pp 1–34, Dec, 2023. [[PDF]](https://dl.acm.org/doi/full/10.1145/3617176)[[Github]](https://github.com/SNTSVV/SWEAK)
 * J. Lee, S. Shin, S. Nejati, L. Briand, Y. Parache, "Estimating Probabilistic Safe WCET Ranges of Real-Time Systems at Design Stages," in ACM Transactions on Software Engineering and Methodology (TOSEM), vol. 32, no. 2, pp. 37:1-33, Mar, 2023. [[PDF]](https://dl.acm.org/doi/full/10.1145/3546941)[[Github]](https://github.com/SNTSVV/SAFE)
@@ -42,7 +39,7 @@ My research interests are in the area of software testing related to mutation te
 
 
 ## WORK EXPERIENCE
-* Postdoctoral researcher, University of Luxembourg (UL) and University of Ottawa, 2022 ~ Present
+* Postdoctoral researcher, University of Luxembourg (UL) and University of Ottawa (uOttawa), 2022 ~ 2024
   * Project: FAQAS2 - Fault-based, Automated Quality Assurance Assessment and Augmentation for Space Software
   * Supervisor: Fabrizio Pastore and Lionel Briand
 
