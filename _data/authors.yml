@@ -1,9 +1,9 @@
 Jaekwon Lee:
   name      : "Jaekwon Lee"
   avatar    : "/assets/imgs/photo.jpg"
-  bio       : "" # Note: Markdown is allowed
-  location  : "University of Ottawa"
-  email     : jaekwon.lee@uottawa.ca
+  bio       : "Assistant Professor" # Note: Markdown is allowed
+  location  : "Kangwon National University"
+  email     : jaekwon.lee@kangwon.ac.kr
   url       : https://exatoa.github.io # the base hostname & protocol for your site
   links:
     - label : "GitHub"
