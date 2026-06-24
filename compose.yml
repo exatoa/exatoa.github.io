@@ -1,0 +1,21 @@
+services:
+  web:
+    build: .              # finds ./Dockerfile
+    image: gitpage:latest
+    # TTY setting (allows to run containers as daemon and still be able to attach to it`)
+#    stdin_open: true
+#    tty: true
+#    command: bash
+    # TTY setting (allows to run containers as daemon and still be able to attach to it`)
+    environment:
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8
+      - RUBYOPT=-EUTF-8
+      - PAGES_REPO_NWO=test/test.github.io
+    ports: [ "8000:8000" ]
+    volumes:
+      - ./:/work
+    working_dir: /work
+    command: bundle exec jekyll serve --host=0.0.0.0 --port=8000
+
+
